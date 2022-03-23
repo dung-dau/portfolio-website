@@ -10,6 +10,7 @@
 
 .p-title {
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .p-browser {
@@ -38,6 +39,21 @@
 
 .p:hover {
     cursor: pointer;
+}
+
+.p-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+}
+
+.p-links > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.p-links > a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 480px){

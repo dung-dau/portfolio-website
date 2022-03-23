@@ -34,10 +34,6 @@ const Contact = () => {
                 <h1 className="c-title">Let's discuss your project</h1>
                 <div className="c-info">
                     <div className="c-info-item">
-                        <img src={email} alt="" className="c-icon" />
-                        dungsdau@gmail.com
-                    </div>
-                    <div className="c-info-item">
                         <img src={github} alt="" className="c-icon" />
                         <a href="https://github.com/dung-dau" target="_blank">Github</a>
                     </div>
