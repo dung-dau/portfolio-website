@@ -1,6 +1,6 @@
 # Getting Started
 
-This project is available on https://ddau.herokuapp.com/.
+A personal website I made using React and CSS. This project is available on https://ddau.herokuapp.com/.
 
 ## Available Scripts
 
