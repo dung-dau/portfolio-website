@@ -1,12 +1,12 @@
 import React from 'react';
 import './contact.css';
-import email from '../../img/email.png';
 import github from '../../img/github.png';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { useContext } from 'react';
 import { ThemeContext } from '../../context';
+import linkedin from '../../img/linkedin.png';
 
 const Contact = () => {
     const formRef = useRef();
@@ -36,6 +36,17 @@ const Contact = () => {
                     <div className="c-info-item">
                         <img src={github} alt="" className="c-icon" />
                         <a href="https://github.com/dung-dau" target="_blank">Github</a>
+                    </div>
+                    <div className="c-info-item">
+                        <img src={linkedin} 
+                             alt="" 
+                             className="c-icon" 
+                        />
+                        <a href={linkedin}
+                           target="_blank"
+                        >
+                            LinkedIn
+                        </a>
                     </div>
                 </div>
             </div>

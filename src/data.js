@@ -8,14 +8,9 @@ export const products = [
     },
     {
       id: 2,
-      img: "",
-      link: "",
-      title: "2"
-    },
-    {
-      id: 3,
-      img: "",
-      link: "",
-      title: "3"
+      img: "https://i.ibb.co/zPJVB1H/snail-mail.png",
+      link: "https://mail-app-d6bd1.web.app",
+      repo: "https://github.com/dung-dau/mail-app",
+      title: "Snail Mail",
     },
   ];
