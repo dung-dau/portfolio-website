@@ -13,4 +13,11 @@ export const products = [
       repo: "https://github.com/dung-dau/mail-app",
       title: "Snail Mail",
     },
+    {
+      id: 3,
+      img: "https://user-images.githubusercontent.com/55113973/163818238-a593a007-4d8d-4e5a-aafa-bd0e90d7479e.png",
+      link: "https://time-management-app-ca473.web.app",
+      repo: "https://github.com/dung-dau/calendar-app.git",
+      title: "React Calendar",
+    },
   ];
